@@ -1,4 +1,12 @@
-# Website
+# HackUTD Tech Guide
+
+A hacker's guide to hackathons, made by the HackUTD Team.
+
+## Contributions
+
+Create a pull request to make changes. All pages are written in Markdown in the `docs` directory. 
+
+## Docusaurus
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
