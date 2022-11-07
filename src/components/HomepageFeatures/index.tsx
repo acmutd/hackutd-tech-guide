@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
         clean-looking website.
       </>
     ),
-    href: '/frontend',
+    href: '/category/frontend',
   },
   {
     title: 'Backend',
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
         backend. Click here to explore your options!
       </>
     ),
-    href: '/backend',
+    href: '/category/backend',
   },
   {
     title: 'Cloud Deployment',
@@ -45,7 +45,7 @@ const FeatureList: FeatureItem[] = [
         cloud platforms such as AWS, Docker, or Vercel.
       </>
     ),
-    href: '/deployment',
+    href: '/category/deployment',
   },
 ];
 

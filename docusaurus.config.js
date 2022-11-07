@@ -72,12 +72,6 @@ const config = {
             label: 'Intro',
           },
           {
-            type: 'doc',
-            docId: '/category/frontend',
-            position: 'left',
-            label: 'Frontend',
-          },
-          {
             href: 'https://github.com/acmutd/hackutd-tech-guide',
             label: 'GitHub',
             position: 'right',
@@ -96,7 +90,7 @@ const config = {
               },
               {
                 label: 'Frontend',
-                to: '/category/frontend',
+                to: '/frontend',
               },
             ],
           },
