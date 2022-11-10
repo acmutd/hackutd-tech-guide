@@ -1,8 +1,8 @@
 {
-  "label": "JavaScript Libraries",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "There is no modern web page that is made 100% from scratch. These pages all use libraries, which is essentially code someone else wrote that YOU can use."
-  }
+    "label": "JavaScript Libraries",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "There is no modern web page that is made 100% from scratch. These pages all use libraries, which is essentially code someone else wrote that YOU can use."
+    }
 }

@@ -4,7 +4,7 @@ A hacker's guide to hackathons, made by the HackUTD Team.
 
 ## Contributions
 
-Create a pull request to make changes. All pages are written in Markdown in the `docs` directory. 
+Create a pull request to make changes. All pages are written in Markdown in the `docs` directory.
 
 ## Docusaurus
 

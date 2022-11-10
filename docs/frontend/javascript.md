@@ -20,7 +20,7 @@ JavaScript can be placed in primarily 2 places:
         <h1>Hello</h1>
     </body>
     <script>
-        console.log("Hello World!");
+        console.log('Hello World!');
     </script>
 </html>
 ```
@@ -37,27 +37,27 @@ JavaScript can be placed in primarily 2 places:
 ```
 
 ```js title="script.js"
-console.log("Hello World!");
+console.log('Hello World!');
 ```
 
 All code will be ran immediately once the page loads the code. However, we can wait until the HTML page has fully rendered before running the code using the `window.onload` function:
 
 ```js
-window.onload = function() {
+window.onload = function () {
     // Code to run once page loads
-    document.getElementById("title").textContent = "Hello!";
-}
+    document.getElementById('title').textContent = 'Hello!';
+};
 ```
 
 ## Variables
 
 JavaScript is not strictly typed, so it only has 3 main variable definitions:
 
-- `var`: Declares a variable (uses hoisting, which allows use before decleration)
-- `let`: Also declares a variable but enforces that declerations should be before use
-- `const`: Same as constant variables in other languages, cannot be changed after it is defined
+-   `var`: Declares a variable (uses hoisting, which allows use before decleration)
+-   `let`: Also declares a variable but enforces that declerations should be before use
+-   `const`: Same as constant variables in other languages, cannot be changed after it is defined
 
 ## External Links
 
-- [The Modern JavaScript Tutorial](https://javascript.info/)
-- [W3 Schools JavaScript Tutorial](https://www.w3schools.com/js/)
+-   [The Modern JavaScript Tutorial](https://javascript.info/)
+-   [W3 Schools JavaScript Tutorial](https://www.w3schools.com/js/)
