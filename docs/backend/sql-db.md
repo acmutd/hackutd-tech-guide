@@ -10,8 +10,8 @@ sidebar_position: 3
 
 | id | apartment    | address   | rent |sq ft | deadline |has gym|
 | ---| -----------  | ----------|------|------|----------|-------|
-| 0  | Lorem        | 1111 aaaa |$1500 |1234  | 2023-1-1 |false  |
-| 1  | Ipsum        | 2222 bbb  |$2000 |1100  | 2022-12-1|true   |
+| 0  | Lorem        | 1111 Aaaa |$1500 |1234  | 2023-1-1 |false  |
+| 1  | Ipsum        | 2222 Bbb  |$2000 |1100  | 2022-12-1|true   |
 
 ## When to use Relational?
 
