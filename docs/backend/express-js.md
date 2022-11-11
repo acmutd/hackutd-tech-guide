@@ -126,6 +126,10 @@ Note, that the order of [middleware](https://expressjs.com/en/guide/writing-midd
 
 **[Complete Example](https://stackblitz.com/edit/express-simple-f4rrwc?file=index.js)**
 
+## Further Reading
+
+**[Next.js](/frontend/javascript-frameworks/next-js.md)**  – A framework that combines backend and frontend
+
 ## External Links
 
 - [Express Routing](https://expressjs.com/en/guide/routing.html)
@@ -133,4 +137,3 @@ Note, that the order of [middleware](https://expressjs.com/en/guide/writing-midd
 - [Express Tutorial](https://www.tutorialspoint.com/expressjs/index.htm)
 - [GraphQL](https://graphql.org/) - A query language for your API
 - [Koa](https://koajs.com/) - A new framework by the team behind Express
-- [Next.js](/frontend/javascript-frameworks/next-js) – A framework that combines backend and frontend
