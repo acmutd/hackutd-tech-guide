@@ -33,5 +33,5 @@ It is also possible to store lists of values, and even lists of nested objects i
 ## External Links
 
 - [What is NoSQL? When should I use NoSQL?](https://www.mongodb.com/nosql-explained)
-
 - [Tutorial: Integrating Mongo, Express, React, and Node](https://www.mongodb.com/languages/mern-stack-tutorial)
+- [Tutorial: Integrating Mongo, Next.js, and Node](https://www.mongodb.com/developer/languages/javascript/nextjs-with-mongodb/)
