@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
                 learn how to build a clean-looking website.
             </>
         ),
-        href: '/category/frontend',
+        href: '/frontend',
     },
     {
         title: 'Backend',
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
                 use to build a backend. Click here to explore your options!
             </>
         ),
-        href: '/category/backend',
+        href: '/backend',
     },
     {
         title: 'Cloud Deployment',
@@ -46,7 +46,7 @@ const FeatureList: FeatureItem[] = [
                 Vercel.
             </>
         ),
-        href: '/category/deployment',
+        href: '/cloud-deployment',
     },
 ];
 
