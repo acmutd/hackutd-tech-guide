@@ -91,12 +91,28 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
+                                label: 'Workshop Archive',
+                                to: '/archive',
+                            },
+                            {
                                 label: 'Intro',
                                 to: '/intro',
                             },
                             {
                                 label: 'Frontend',
                                 to: '/frontend',
+                            },
+                            {
+                                label: 'Backend',
+                                to: '/backend',
+                            },
+                            {
+                                label: 'Version Control',
+                                to: '/version-control',
+                            },
+                            {
+                                label: 'Cloud Deployment',
+                                to: '/cloud-deployment',
                             },
                         ],
                     },
