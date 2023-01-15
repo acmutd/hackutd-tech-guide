@@ -42,6 +42,12 @@ const config = {
                 },
                 blog: {
                     showReadingTime: true,
+                    feedOptions: {
+                        type: 'all',
+                        copyright: `Copyright © ${new Date().getFullYear()} HackUTD`,
+                    },
+                    routeBasePath: 'archive',
+                    blogTitle: 'Workshop Archive',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -67,7 +73,7 @@ const config = {
                         label: 'Intro',
                     },
                     {
-                        to: 'blog',
+                        to: 'archive',
                         label: 'Workshop Archive',
                         position: 'left',
                     },
