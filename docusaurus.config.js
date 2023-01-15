@@ -40,14 +40,15 @@ const config = {
                     // editUrl:
                     //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
-                blog: false,
-                // blog: {
-                // showReadingTime: true,
-                // Please change this to your repo.
-                // Remove this to remove the "edit this page" links.
-                // editUrl:
-                //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                // },
+                blog: {
+                    showReadingTime: true,
+                    feedOptions: {
+                        type: 'all',
+                        copyright: `Copyright © ${new Date().getFullYear()} HackUTD`,
+                    },
+                    routeBasePath: 'archive',
+                    blogTitle: 'Workshop Archive',
+                },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
@@ -72,6 +73,11 @@ const config = {
                         label: 'Intro',
                     },
                     {
+                        to: 'archive',
+                        label: 'Workshop Archive',
+                        position: 'left',
+                    },
+                    {
                         href: 'https://github.com/acmutd/hackutd-tech-guide',
                         label: 'GitHub',
                         position: 'right',
@@ -85,12 +91,28 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
+                                label: 'Workshop Archive',
+                                to: '/archive',
+                            },
+                            {
                                 label: 'Intro',
                                 to: '/intro',
                             },
                             {
                                 label: 'Frontend',
                                 to: '/frontend',
+                            },
+                            {
+                                label: 'Backend',
+                                to: '/backend',
+                            },
+                            {
+                                label: 'Version Control',
+                                to: '/version-control',
+                            },
+                            {
+                                label: 'Cloud Deployment',
+                                to: '/cloud-deployment',
                             },
                         ],
                     },
