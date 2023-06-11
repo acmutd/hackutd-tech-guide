@@ -8,19 +8,20 @@ A collection of projects meant to help hackers bootstrap their next project :). 
 
 This can be done manually or automatically. It is NOT recommended that you add tech guides manually. It is both more difficult to add and to keep in sync.
 
-To automatically add your tech guide and download referenced assets, add an entry to ``TECHGUIDES.config.yml``. 
+To automatically add your tech guide and download referenced assets, add an entry to `TECHGUIDES.config.yml`.
 
 Example:
+
 ```yaml
 guides:
-  - 
-    author: HackUTD
-    title: React Native Login
-    description: A simple login example using React Native
-    url: "https://github.com/akevinge/react-native-hackpack"
+    - author: HackUTD
+      title: React Native Login
+      description: A simple login example using React Native
+      url: "https://github.com/akevinge/react-native-hackpack"
 ```
 
 Run the following command to run add your techguide and assets.
+
 ```bash
 npm run dev:generate
 ```
@@ -32,9 +33,10 @@ npm run generate
 npm run dev
 ```
 
-To manually add your tech guides, copy the README to ``/src/content/guide/githubowner__repositoryname.md``. Copy over asset files and replace links in your README. 
+To manually add your tech guides, copy the README to `/src/content/guide/githubowner__repositoryname.md`. Copy over asset files and replace links in your README.
 
 Add frontmatter to the md file as seen below:
+
 ```md
 ---
 author: HackUTD
@@ -47,26 +49,27 @@ postSlug: react-native-hackpack # Slug should be your tech guide's repository na
 # The Rest of Your README
 ```
 
-Also, add an entry to ``TECHGUIDES.config.yaml`` and *comment it out*.
+Also, add an entry to `TECHGUIDES.config.yaml` and _comment it out_.
 
 ### What If I Change My Tech Guide's README?
 
-For style changes, it can be annoying to change your tech guide's README, push it to Github, and regenerate it in this repository. It is recommended that you make stylistic changes to the ``.md`` file in this project, copy the changes to the README in your tech guide's repository, and regenerate when you're done. 
+For style changes, it can be annoying to change your tech guide's README, push it to Github, and regenerate it in this repository. It is recommended that you make stylistic changes to the `.md` file in this project, copy the changes to the README in your tech guide's repository, and regenerate when you're done.
 
 Otherwise, most of your README writing can probably be done in your tech guide and you can generate it here when you're done :).
 
 > **Warning**
 >
-> Running ``npm run generate`` or ``npm run dev:generate`` will overwrite any changes you make to existing generated files.
+> Running `npm run generate` or `npm run dev:generate` will overwrite any changes you make to existing generated files.
 
 # Implementation Details
 
 ## Generated
-``scripts/generateReadmes.ts`` is the entry point. 
 
-``scripts/api.ts`` handles all github API calls.
+`scripts/generateReadmes.ts` is the entry point.
 
-``scripts/pathResolver.ts`` finds links referencing local files (in the github repo), downloads them, and replaces the links with the newly downloaded file path.
+`scripts/api.ts` handles all github API calls.
+
+`scripts/pathResolver.ts` finds links referencing local files (in the github repo), downloads them, and replaces the links with the newly downloaded file path.
 
 ## Project Structure
 
@@ -145,7 +148,7 @@ All commands are run from the root of the project, from a terminal:
 | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
 | `npm install`          | Installs dependencies                                                                                                            |
 | `npm run dev`          | Starts local dev server at `localhost:3000`                                                                                      |
-| `npm run dev:generate`          | Generates astro README's for tech guides and starts local dev server at `localhost:3000`                                                                                      |
+| `npm run dev:generate` | Generates astro README's for tech guides and starts local dev server at `localhost:3000`                                         |
 | `npm run build`        | Build your production site to `./dist/`                                                                                          |
 | `npm run preview`      | Preview your build locally, before deploying                                                                                     |
 | `npm run format:check` | Check code format with Prettier                                                                                                  |
@@ -153,6 +156,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run sync`         | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
 | `npm run lint`         | Lint with ESLint                                                                                                                 |
 
---- 
+---
 
 Licensed under the MIT License, Copyright © 2023

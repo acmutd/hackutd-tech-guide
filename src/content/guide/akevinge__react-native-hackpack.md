@@ -1,6 +1,6 @@
 ---
 author: HackUTD
-description: A simple login example using React Native 
+description: A simple login example using React Native
 pubDatetime: 2023-04-11T14:49:37.000Z
 title: React Native Login
 postSlug: react-native-hackpack
@@ -14,9 +14,9 @@ postSlug: react-native-hackpack
 
 Prerequisites:
 
-- [Node v16 or higher](https://nodejs.org/en)
-- A phone (Android or IOS)
-- The [Expo Go App](https://expo.dev/client)
+-   [Node v16 or higher](https://nodejs.org/en)
+-   A phone (Android or IOS)
+-   The [Expo Go App](https://expo.dev/client)
 
 1. Clone the repository
 

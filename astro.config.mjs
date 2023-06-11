@@ -8,35 +8,35 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE.website,
-  integrations: [
-    tailwind({
-      config: {
-        applyBaseStyles: false,
-      },
-    }),
-    react(),
-    sitemap(),
-  ],
-  markdown: {
-    remarkPlugins: [
-      remarkToc,
-      [
-        remarkCollapse,
-        {
-          test: "Table of contents",
-        },
-      ],
+    site: SITE.website,
+    integrations: [
+        tailwind({
+            config: {
+                applyBaseStyles: false,
+            },
+        }),
+        react(),
+        sitemap(),
     ],
-    shikiConfig: {
-      theme: "one-dark-pro",
-      wrap: true,
+    markdown: {
+        remarkPlugins: [
+            remarkToc,
+            [
+                remarkCollapse,
+                {
+                    test: "Table of contents",
+                },
+            ],
+        ],
+        shikiConfig: {
+            theme: "one-dark-pro",
+            wrap: true,
+        },
+        extendDefaultPlugins: true,
     },
-    extendDefaultPlugins: true,
-  },
-  vite: {
-    optimizeDeps: {
-      exclude: ["@resvg/resvg-js"],
+    vite: {
+        optimizeDeps: {
+            exclude: ["@resvg/resvg-js"],
+        },
     },
-  },
 });
