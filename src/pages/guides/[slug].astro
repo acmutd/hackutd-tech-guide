@@ -1,0 +1,22 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import PostDetails from "@layouts/PostDetails.astro";
+import slugify from "@utils/slugify";
+
+export interface Props {
+  guide: CollectionEntry<"guide">;
+}
+
+export async function getStaticPaths() {
+  const guides = await getCollection("guide", ({ data }) => !data.draft);
+
+  return guides.map(guide => ({
+    params: { slug: slugify(guide.data) },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props;
+---
+
+<PostDetails post={guide} />

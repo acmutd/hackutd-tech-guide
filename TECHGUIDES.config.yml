@@ -1,0 +1,12 @@
+guides:
+  # author should always be HackUTD
+  # title should be similar to the README title
+  # description should be 1-2 sentences
+  # url needs to be a valid Github url and must start with https:// and not have a / at the end
+  # See: _schema.ts for formal configuration schema
+  - 
+    author: HackUTD
+    title: React Native Login
+    description: A simple login example using React Native
+    url: "https://github.com/akevinge/react-native-hackpack"
+  
