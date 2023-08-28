@@ -22,6 +22,8 @@ This block of code would turn all of the level 1 headings in the associated HTML
 -   `color:` is the **property** - the thing we are trying to format. Other examples of properties include `font-size` or `margin`.
 -   `red;` is the value of the property - specifically what we are setting the property to be.
 
+For a good general overview of CSS, check out [CSS in 100 Seconds by Fireship](https://www.youtube.com/watch?v=OEV8gMkCHXQ&pp=ygUSY3NzIGluIDEwMCBzZWNvbmRz).
+
 ## Ways to add CSS to Your HTML Document
 
 There are 3 ways to add CSS to an HTML doc:
@@ -126,12 +128,3 @@ For further layout options, check out CSS Grid and CSS Flexbox. Here are some re
 
 -   Grid: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 -   Flexbox: [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/)
-
-## Frameworks
-
-It can be a tedious and time-consuming process to build up a presentable page starting from scratch with CSS. **Frameworks**, which are essentially CSS libraries, make it much easier. Here are some of the more popular Frameworks to get you started:
-
--   [Material UI](https://mui.com/)
--   [Bootstrap](https://getbootstrap.com/)
--   [Tailwind CSS](http://tailwindcss.com)
--   [Bulma](http://bulma.io)
