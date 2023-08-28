@@ -7,7 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'HackUTD Tech Guide',
-    tagline: 'Your one-stop shop for all tech resources during HackUTD!',
+    tagline:
+        "A hacker's guide to hackathons, made by the HackUTD Team. Your one-stop shop for all tech resources during HackUTD!",
     url: 'https://guide.hackutd.co',
     baseUrl: '/',
     onBrokenLinks: 'throw',

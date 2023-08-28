@@ -8,6 +8,10 @@ JavaScript is the language that is used on the web. All sites today have some so
 
 JavaScript, you will find, is a much more dynamic language and allows you to do a lot of things that other programming languages don't like. However, this freedom comes with a downside: JavaScript tends to produce a ton more runtime errors due to its lack of compilation and type checking. You might hear many online hate on JavaScript (and with good reason), but it is the basis for the modern web. And once you learn the basics, you can explore more typed-variations such as TypeScript and CoffeeScript.
 
+For a good general overview of Javascript, check out [JavaScript in 100 Seconds by Fireship](https://www.youtube.com/watch?v=DHjqpvDnNGE).
+
+For a more in-depth introduction to the language, watch [JavaScript Crash Course for Begineers](https://www.youtube.com/watch?v=hdI2bqOjy3c).
+
 ## Where to Write JavaScript?
 
 JavaScript can be placed in primarily 2 places:
@@ -49,15 +53,7 @@ window.onload = function () {
 };
 ```
 
-## Variables
-
-JavaScript is not strictly typed, so it only has 3 main variable definitions:
-
--   `var`: Declares a variable (uses hoisting, which allows use before decleration)
--   `let`: Also declares a variable but enforces that declerations should be before use
--   `const`: Same as constant variables in other languages, cannot be changed after it is defined
-
-## External Links
+## More Resources
 
 -   [The Modern JavaScript Tutorial](https://javascript.info/)
 -   [W3 Schools JavaScript Tutorial](https://www.w3schools.com/js/)
